@@ -42,11 +42,11 @@ The profile with id: arquillian-payara-embedded
 ```
 
 5. Could you guess if this project will be supported on many application servers? Which ones? Why is this possible?
-```kotlin
+```
 Yes this application can be supported for all de application servers that can deploy JavaEE, for example Glasfish, Payara, Oracle Web Logic, etc.
 ```
 6. If no database is configured? Will you be able to run this project? Why?
-```kotlin
+```
 The project be able run without database configuration because this configuration is contained in Persistence.xml, this file is not a compilated file and I can configurate the database’s path once the project has ben executed.
 ```
 ## Development tasks
@@ -54,13 +54,13 @@ The project be able run without database configuration because this configuratio
 1. (easy) Please include a screenshot of this project building on a regular CLI
 ![](Dev1.png?raw=true)
 2. (easy) Please include a screenshot of this project running on an IDE of your choice
-```kotlin
+```
 Ide used: Netbeans 8.0.2
 ```
 ![](Dev2.png?raw=true)
 
 3. (medium) Please deploy this project to a compatible application server, later include the screenshot of the list Movies endpoint
-```kotlin
+```
 Application Server used: Glasfish 4.1
 ```
 ![](Dev3.png?raw=true)
@@ -72,7 +72,7 @@ Application Server used: Glasfish 4.1
 ![](Dev4d.png?raw=true)
 
 4. (medium) Add support to Bean Validation for the entity Movie and validate nulls on REST layer
-```kotlin
+```
 Validations of nulls in MovieController.java
 ```
 5. (hard) Please identify the Integration Testing for `MovieRepository`, after that implement each of the non-included CRUD methods
